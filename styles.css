@@ -1,0 +1,138 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6699ff;
+  color: #2e4053;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #0077b6, #00b4d8, #48cae4);
+  color: #f0f8ff;
+  padding: 25px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  text-shadow: 2px 2px #014f86;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #caf0f8;
+  font-style: italic;
+}
+
+section {
+  padding: 30px 20px;
+  margin: 20px auto;
+  background-color: #f1faee;
+  border: 4px dotted #90be6d;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+}
+
+h2 {
+  color: #0077b6; 
+  margin-bottom: 20px;
+  font-size: 2.2em;
+  text-shadow: 1px 1px #90be6d;
+  text-transform: uppercase;
+}
+
+#when-where p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#schedule table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 95%;
+  max-width: 650px;
+  border: 3px solid #00b4d8;
+  background-color: #f8f9fa; 
+}
+
+#schedule th, #schedule td {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #90be6d;
+}
+
+#schedule th {
+  background-color: #0077b6;
+  color: white;
+}
+
+#partners .partners-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#partners img {
+  width: 120px;
+  height: auto;
+  border: 3px solid #48cae4; 
+  border-radius: 20px;
+  transition: transform 0.5s ease, filter 0.5s ease;
+  filter: grayscale(60%);
+}
+
+#partners img:hover {
+  transform: rotate(-5deg) scale(1.2);
+  filter: none;
+}
+
+#registration button {
+  padding: 12px 25px;
+  font-size: 1.3em;
+  color: white;
+  background: linear-gradient(to right, #90be6d, #48cae4); 
+  border: 3px solid #00b4d8;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+#registration button:hover {
+  background: linear-gradient(to right, #0077b6, #90be6d); 
+  transform: scale(1.1) rotate(-3deg);
+}
+
+footer {
+  background-color: #023e8a; 
+  color: #caf0f8;
+  padding: 15px 0;
+  font-size: 0.9em;
+  font-style: italic;
+  text-shadow: 1px 1px #000;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+#partners {
+  background-color: #e0f7fa; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#partners h2 {
+  font-size: 1.8em;
+  color: #00b4d8;
+  text-shadow: 1px 1px #90be6d;
+}
